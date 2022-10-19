@@ -1,0 +1,133 @@
+:root {
+    --title-text-color: #212121;
+    --paragraph-text-color: #757575;
+    --primary-white-color: #FFFFFF;
+    --logo-text-color: #2196F3;
+    --logo-black-color: #000000;
+    --background-white: #FFFFFF;
+    --background-black: #2F303A;
+    --background-beige: #F5F4FA;
+    --background-blue: #2196F3;
+    --backgroung-button: #F5F4FA;
+}
+
+header {
+    background-color: var(--background-white);
+}
+
+body {
+    color: var(--logo-black-color);
+    font-family: Roboto;
+}
+         /*header*/
+
+.ingredient {
+    color: var(--logo-text-color);
+}
+
+.logo-text {
+    color: var(--logo-black-color);
+ }
+
+ .ingredient .logo-text:hover,
+ .ingredient .logo-text:focus {
+    color: var(--logo-text-color);
+ }
+
+.link {
+    color: var(--title-text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--logo-text-color);
+}
+
+        /*hero*/
+
+.hero {
+    background-color: var(--background-black);
+}
+
+.hero-text {
+    color: var(--primary-white-color);
+    
+}
+
+.hero-button {
+    color: var(--primary-white-color);
+    background-color: var(--background-blue);
+}
+        /*Принципи*/
+
+.descr {
+    background-color: var(--background-white);
+}
+
+.descr-title {
+    color: var(--title-text-color);
+}
+
+.descr-text {
+    color: var(--paragraph-text-color);
+}
+        /*Приклади*/
+.post {
+    background-color: var(--background-white);
+}
+
+        .post-title {
+    color: var(--title-text-color);
+}
+
+        /*Команда*/
+
+.team {
+    background-color: var(--background-beige);
+}
+
+.team-title {
+    color: var(--title-text-color);
+}
+
+.team-subtitle {
+   color: var(--title-text-color);
+}
+
+.team-text {
+    color: var(--paragraph-text-color);
+}
+
+        /*Футер*/
+
+.basement .link {
+    color: var(--primary-white-color);
+}
+
+footer {
+    background-color: var(--background-black);
+}
+.logo {
+    color: var(--primary-white-color);
+}
+
+        /*Портфоліо*/
+
+.list-button {
+    color: var(--title-text-color);
+    background-color: var(--backgroung-button);
+}
+
+.list-button:hover,
+.list-button:focus {
+    background-color: var(--background-blue);
+}
+
+.list-title {
+    color: var(--title-text-color);
+}
+
+.list-text {
+    color: var(--paragraph-text-color);
+}
+        
