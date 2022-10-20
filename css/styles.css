@@ -11,123 +11,214 @@
     --backgroung-button: #F5F4FA;
 }
 
-header {
+body {
+    
+    color: var(--logo-black-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
     background-color: var(--background-white);
 }
+         
+        /*header*/
 
-body {
-    color: var(--logo-black-color);
-    font-family: Roboto;
+.list {
+    
+    list-style: none;
 }
-         /*header*/
 
-.ingredient {
+.logo {
+    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.6;
+}
+
+.logo:hover,
+.logo:focus {
     color: var(--logo-text-color);
 }
 
-.logo-text {
+.logo .logo-text {
     color: var(--logo-black-color);
- }
+}
 
- .ingredient .logo-text:hover,
- .ingredient .logo-text:focus {
+.logo .ingredient {
+    
     color: var(--logo-text-color);
- }
+}
+
+.site-nav,
+.auth-nav {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 3.5;
+        
+}
 
 .link {
+    
     color: var(--title-text-color);
 }
 
 .link:hover,
 .link:focus {
+    
     color: var(--logo-text-color);
 }
 
         /*hero*/
 
 .hero {
+    
     background-color: var(--background-black);
 }
 
 .hero-text {
-    color: var(--primary-white-color);
     
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
 }
 
 .hero-button {
+    
     color: var(--primary-white-color);
     background-color: var(--background-blue);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    
 }
+    
         /*Принципи*/
 
-.descr {
-    background-color: var(--background-white);
-}
-
-.descr-title {
+.section-title {
+    
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 5;
+    
 }
 
-.descr-text {
+.section-text {
+    
     color: var(--paragraph-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
+        
         /*Приклади*/
-.post {
-    background-color: var(--background-white);
-}
 
-        .post-title {
+.post-title {
+    
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.9;
+    text-align: center;
 }
 
         /*Команда*/
 
 .team {
+    
     background-color: var(--background-beige);
 }
 
 .team-title {
+    
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.9;
+    text-align: center;
 }
 
 .team-subtitle {
-   color: var(--title-text-color);
+   
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 3.1;
 }
 
 .team-text {
+    
     color: var(--paragraph-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
 }
 
         /*Футер*/
 
 .basement .link {
+    
     color: var(--primary-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    
+}
+
+.basement .link:hover,
+.basement .link:focus {
+    
+    color: var(--logo-text-color);
 }
 
 footer {
+    
     background-color: var(--background-black);
 }
-.logo {
+.basement .logo-text {
+    
     color: var(--primary-white-color);
 }
 
         /*Портфоліо*/
 
-.list-button {
+.portfolio-button {
+    
     color: var(--title-text-color);
     background-color: var(--backgroung-button);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+       
 }
 
-.list-button:hover,
-.list-button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
+    
     background-color: var(--background-blue);
 }
 
-.list-title {
+.portfolio-title {
+    
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
 }
 
-.list-text {
+.portfolio-text {
+    
     color: var(--paragraph-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+       
+}
+
+.site-nav .link.current {
+    
+    color: var(--logo-text-color);
 }
         
